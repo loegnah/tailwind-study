@@ -5,14 +5,24 @@ const Home: NextPage = () => {
     <div className="bg-slate-400 py-20 px-20 grid gap-10 min-h-screen">
       <div className="bg-white p-6 rounded-3xl shadow-xl">
         <span className="font-semibold text-3xl">Select Item</span>
-        <div className="flex justify-between my-2">
-          <span className="text-gray-500">Super Table</span>
-          <span className="font-semibold">$15000</span>
-        </div>
-        <div className="flex justify-between mb-2">
-          <span className="text-gray-500">Great Pants</span>
-          <span className="font-semibold">$999</span>
-        </div>
+        <ul>
+          {[1, 2, 3, 4, 5].map((i) => (
+            <div
+              key={i}
+              className="flex justify-between my-2 first:bg-amber-200 last:bg-teal-200"
+            >
+              <span className="text-gray-500">Super Table</span>
+              <span className="font-semibold">$15000</span>
+            </div>
+          ))}
+        </ul>
+        <ul>
+          {["a", "b", "c", "", "d"].map((c, i) => (
+            <li className="bg-red-200 py-2 empty:hidden" key={i}>
+              {c}
+            </li>
+          ))}
+        </ul>
         <div className="flex justify-between mt-2 pt-2 border-t-2 border-dashed">
           <span>Total</span>
           <span className="font-semibold">$15999</span>
