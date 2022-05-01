@@ -108,6 +108,15 @@ const Home: NextPage = () => {
           <input type="submit" value="Login" className="bg-white" />
         </form>
       </div>
+      <div className="bg-white p-6 rounded-3xl shadow-xl">
+        <input
+          type="file"
+          className="file:transition-colors file:duration-500 file:bg-purple-300 file:rounded-xl file:border-0 file:px-5 file:hover:cursor-pointer file:hover:bg-purple-500 file:hover:text-gray-100"
+        />
+        <p className="mt-2 first-letter:text-purple-300 first-letter:text-4xl first-letter:font-bold first-letter:hover:text-black">
+          This is File.
+        </p>
+      </div>
     </div>
   );
 };
