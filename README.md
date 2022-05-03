@@ -1,10 +1,10 @@
-# Carrot Market clone
+# Tailwind CSS Project for study
 
-Just studying for developing serverless web application.
+Just studying for Tailwind CSS v3
 
 ## Author
 * Email: loegnah@gmail.com
-* Notion: [Loegnah Carrot market clone](https://loegnah.notion.site/Carrot-market-clone-3370ec2c7353438a9cb878ecc39ace5b)
+* Notion: [Loegnah Tailwind CSS](https://www.notion.so/loegnah/Tailwind-CSS-ea22dbeceb1040d4a51cb28d1e5070d1)
 
 ## skills
 ### frontend

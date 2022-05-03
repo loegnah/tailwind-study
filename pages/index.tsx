@@ -24,7 +24,7 @@ const Home: NextPage = () => {
         </div>
       </div>
       <div className="bg-white overflow-hidden rounded-3xl shadow-xl group">
-        <div className="bg-blue-500 p-6 pb-14 md:pb-32 landscape:bg-purple-300 dark:bg-amber-700">
+        <div className="bg-blue-500 p-6 pb-14 md:pb-32 landscape:bg-purple-300 dark:bg-amber-700 bg-[url('/vercel.svg')]">
           <span className="text-white text-2xl">Profile</span>
         </div>
         <div className="rounded-3xl bg-white p-6 relative -top-5">
